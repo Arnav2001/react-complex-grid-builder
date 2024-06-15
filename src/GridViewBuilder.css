@@ -1,0 +1,347 @@
+.gridMainDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gridDiv1{
+    height: 600px;
+    width: 21.875rem;
+    border-radius: 24px;
+    border: #000000 solid;
+}
+.gridDiv2{
+
+}
+.gridDiv3{
+
+}
+.gridDiv4{
+
+}
+.gridDiv5{
+
+}
+.gridDiv6{
+
+}
+
+/* tab view styling  */
+@media screen and (max-width:1024px) {
+    /* div 1 styling */
+    .gridDiv1{
+        height: 600px;
+        width: 21.875rem;
+        border-radius: 24px;
+        border: #000000 solid;
+    }
+    .divImg1{
+        height: 25.9375rem;
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .bottomDiv1{
+        padding: 6px;
+    }
+    .headingDiv1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .paraDiv1{
+        font-size: .75rem;
+    }
+    .bottomBar1{
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.5rem;
+        display: flex;
+    }
+    .bottomBarInner1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-align: center;
+    }   
+    .dateDiv1{
+        display: flex;
+        height: 34px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        border: solid black;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* div 3 styling */
+    .gridDiv3{
+        height: 800px;
+        width: 21.875rem;
+        border-radius: 24px;
+        border: #000000 solid;
+    }
+    .divImg3{
+        height: 39rem;
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .bottomDiv3{
+        padding: 6px;
+    }
+    .headingDiv3{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .paraDiv3{
+        font-size: .75rem;
+    }
+    .bottomBar3{
+        align-items: end;
+        padding-top: 1.5rem;
+        flex-direction: column;
+        display: flex;
+    }
+    .bottomBarInner3{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        gap: 4px;
+        text-align: center;
+    }   
+    .dateDiv3{
+        display: flex;
+        height: 34px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        border: solid black;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    /* div 2 styling  */
+    .gridDiv2{
+        height: 500px;
+        width: 21.875rem;
+        border-radius: 24px;
+        border: #000000 solid;
+    }
+    .divImg2{
+        height: 20.25rem;
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .bottomDiv2{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+    }
+    .headingDiv2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .paraDiv2{
+        font-size: .75rem;
+        padding-top: 4px;
+    }
+    .bottomBar2{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    .bottomBarInner2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding-top: 6px;
+        text-align: center;
+    }   
+    .dateDiv2{
+        display: flex;
+        height: 34px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        border: solid black;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* div 4 styling */
+    .gridDiv4{
+        height: 450px;
+        width: 21.875rem;
+        border-radius: 24px;
+        border: #000000 solid;
+    }
+    .divImg4{
+        height: 16.0625rem;
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .bottomDiv4{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+    }
+    .headingDiv4{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .paraDiv4{
+        font-size: .75rem;
+        padding-top: 4px;
+    }
+    .bottomBar4{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    .bottomBarInner4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding-top: 6px;
+    }   
+    .dateDiv4{
+        display: flex;
+        height: 34px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        border: solid black;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* div 5 styling */
+    .gridDiv5{
+        height: 430px;
+        width: 21.875rem;
+        border-radius: 24px;
+        border: #000000 solid;
+    }
+    .divImg5{
+        height: 16.0625rem;
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .bottomDiv5{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+    }
+    .headingDiv5{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .paraDiv5{
+        font-size: .75rem;
+        padding-top: 4px;
+    }
+    .bottomBar5{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    .bottomBarInner5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding-top: 6px;
+        text-align: center;
+    }   
+    .dateDiv5{
+        display: flex;
+        height: 34px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        border: solid black;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* div 6 styling  */
+
+    .gridDivMain{
+        margin-top: 12px;
+        display: flex;
+        width: fit-content;
+        gap: 12px;
+    }
+    .secondColumn{
+        width: fit-content;
+    }
+    .gridDiv0{
+        height: 37.5rem;
+        width: 44.375rem;
+        border-radius: 24px;
+        margin-top: 20px;
+        border: #000000 solid;
+    }
+    .divImg0{
+        height: 25.5625rem;
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .bottomDiv0{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headingDiv0{
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .paraDiv0{
+        font-size: .75rem;
+        padding-top: 4px;
+    }
+    .bottomBar0{
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        display: flex;
+    }
+    .bottomBarInner0{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding-top: 6px;
+        text-align: center;
+    }   
+    .dateDiv0{
+        display: flex;
+        height: 34px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        border: solid black;
+        text-align: center;
+        font-size: 12px;
+    }
+}

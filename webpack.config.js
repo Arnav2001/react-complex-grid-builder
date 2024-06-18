@@ -1,31 +1,44 @@
-const path = require('path');
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-module.exports = {
-  entry: './src/index.js',
+export default {
+  entry: './dist/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js',
-    library: 'GridViewBuilder',
-    libraryTarget: 'umd'
+    path: path.resolve('dist'),
+    filename: 'bundle.js',
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
-        use: 'babel-loader'
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-react'] // Add the preset here
+          }
+
+        },
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
-    ]
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
-  externals: {
-    react: 'react',
-    'react-dom': 'react-dom'
-  }
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html',
+    }),
+  ],
+  devServer: {
+    static: {
+      directory: path.resolve('dist'),
+    },
+    compress: true,
+    port: 9000,
+  },
 };

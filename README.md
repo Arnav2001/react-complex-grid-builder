@@ -75,11 +75,11 @@ export default App;
 ## Props
 The GridViewBuilder component expects the following props:
 
-data: An array of objects representing the grid items. Each object should have the following structure:
-coverImg (string): URL of the cover image.
-heading (string): Heading text.
-writer (string): Writer's name.
-date (string): Date in YYYY-MM-DD format.
+- data: An array of objects representing the grid items. Each object should have the following structure:
+- coverImg (string): URL of the cover image.
+- heading (string): Heading text.
+- writer (string): Writer's name.
+- date (string): Date in YYYY-MM-DD format.
 
 ## License
 This project is licensed under the MIT License.

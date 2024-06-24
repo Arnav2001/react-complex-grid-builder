@@ -1,4 +1,4 @@
+.vscode
+dist
 node_modules
-src
-rollup.config.js
 react-complex-grid-builder-1.0.1.tgz
